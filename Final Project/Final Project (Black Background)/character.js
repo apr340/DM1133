@@ -5,7 +5,8 @@ function Character(xPos, yPos){
 	//this.topSpeed = 2;
 
 	this.show = function(){	// creates a ball to represent the character
-		fill(0);	
+		fill(0);
+		strokeWeight(0);	
 		ellipse(this.position.x, this.position.y, 20, 20);
 	}
 

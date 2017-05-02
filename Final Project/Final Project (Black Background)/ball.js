@@ -21,9 +21,8 @@ function Ball(xPos, yPos){
 		// run a timer for when the ball should disappear
 		// it will change its 'end' value to true to let the sketch know
 		timer += 1;
-		if (timer === 170) {
+		if (timer === 130) {
 			end = true;
-			console.log(end);
 		}
 	}
 
